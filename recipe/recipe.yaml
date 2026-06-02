@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: debugpy
-  version: "1.8.20"
+  version: "1.8.21"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 55bc8701714969f1ab89a6d5f2f3d40c36f91b2cbe2f65d98bf8196f6a6a2c33
+  sha256: a3c53278e84c94e11bd87c53970ec391d1a67396c8b22609fcac576520e611a6
 
 build:
   number: 0
